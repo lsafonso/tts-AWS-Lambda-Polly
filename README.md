@@ -13,7 +13,7 @@ This is a simple serverless Text-to-Speech (TTS) web app built with:
 - **AWS API Gateway** (HTTP API) to expose a `/synthesize` endpoint  
 - **AWS Lambda** (Node.js) as the backend integration  
 - **Amazon Polly** to perform the actual speech synthesis  
-- **S3 + CloudFront** (optional) to host the React build with CDN  
+- **S3 + CloudFront** to host the React build with CDN  
 
 ---
 
