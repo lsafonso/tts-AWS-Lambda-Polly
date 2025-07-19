@@ -10,7 +10,7 @@ export class TTSApiError extends Error {
   }
 }
 
-const BASE_URL = import.meta.env.VITE_TTS_API_URL! ?? 'https://56j25k9zmd.execute-api.eu-north-1.amazonaws.com';
+const BASE_URL = import.meta.env.VITE_TTS_API_URL! ?? 'put your API here, I had to remove mine';
 const SYNTH_PATH = '/synthesize';
 const VOICES_PATH = '/voices';
 
